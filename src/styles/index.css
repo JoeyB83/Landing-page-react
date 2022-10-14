@@ -1,12 +1,54 @@
+.navbar {
+    background-color: rgb(97, 97, 97);
+    margin-bottom: 20px;        
+}
 
-/* 
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
 
-*/
+.jumbotron {
+    background-color: rgb(235, 233, 233);
+    padding-bottom: 70px;
+    /* margin: 20px;     */
+}
+
+/* .container {
+    padding-bottom: 70px;
+} */
+
+/* .card {
+    margin-left: 5px;
+} */
+
+.body{
+    /* background-color: black; */
+    border-style: solid;
+    border-color: black;
+    width: 100%;    
+}
+
+#jumbo {
+    margin-top: 90px;
+    /* padding-bottom: 10px; */
+}
+
+
+
+
